@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+    int V[8]={-4, 0, 5, 10, -20, 40, 100, 30};
+    int soma = V[0]+V[2]+V[4];
+    V[5]=-V[5];
+    printf("%d %d", soma, V[5]);
+
+    return 0;
+}
