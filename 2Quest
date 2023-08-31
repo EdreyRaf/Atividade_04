@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    int V[5];
+    for (int  i=0; i<5; i++) {
+        printf("Digite Valor: ");
+        scanf("%d", &V[i]);
+    } for(int i=4; i>=0; i--){
+        printf("%d ", V[i]);
+    }
+    return 0;
+}
